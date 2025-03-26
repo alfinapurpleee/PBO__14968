@@ -37,11 +37,11 @@ public class Mainquiz {
         System.out.println("\nSkor akhir Anda: " + finalScore);
 
         // Menampilkan pesan berdasarkan skor yang diperoleh
-        if (finalScore == 30) {
+        if (finalScore == 100) {
             System.out.println("Luar biasa! Anda menjawab semua dengan benar!");
-        } else if (finalScore >= 20) {
+        } else if (finalScore >= 70) {
             System.out.println("Bagus! Anda hampir sempurna.");
-        } else if (finalScore >= 10) {
+        } else if (finalScore >= 50) {
             System.out.println("Lumayan, tapi masih bisa lebih baik.");
         } else {
             System.out.println("Coba lagi, masih banyak yang bisa dipelajari!");
